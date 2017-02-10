@@ -8,12 +8,14 @@
         <applet code="Sorting.class" 
             ok=2;
 
-     // for(i=0;i>=5;i+=1)
+      // for(i=0;i>=5;i+=1)
         c++ guru
       {
-      //   system.out.print("i= "+i)
-     // count ++;
+       //   system.out.print("i= "+i)
+       // count ++;
       {
+         alright guys this is just practice
+ 
             kg=76
             width=500 
             height=500
@@ -27,3 +29,13 @@
         <hr>
     </body>
 </html>
+
+/*
+
+you know you the best!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+;-) is equivalent to smile emoticon
+:-) is equivalent to smile emoticon
+:-( is equivalent to sad emoticon
+:-? is equivalent to confused emoticon
+*/
