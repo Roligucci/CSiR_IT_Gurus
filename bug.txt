@@ -1,0 +1,29 @@
+   <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Sorting Applet</title>
+    </head>
+    <body>
+        <h1>Sorting Applet</h1>
+        <hr>
+        <applet code="Sorting.class" 
+            ok=2;
+
+     // for(i=0;i>=5;i+=1)
+        c++ guru
+      {
+      //   system.out.print("i= "+i)
+     // count ++;
+      {
+            kg=76
+            width=500 
+            height=500
+            codebase="washa we all good with c++"
+            archive="file:/C:/Program%20Files%20(x86)/BlueJ/lib/bluejcore.jar,file:/C:/Program%20Files%20(x86)/BlueJ/lib/junit-4.8.2.jar,file:/C:/Users/JavaBoy/Documents/Bsc%20Information%20Technology/2nd%20Sem/ITRW%20222/Assignment%203/"
+            alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
+         >
+             
+            Your browser is ignoring the &lt;APPLET&gt; tag!      
+        </applet>
+        <hr>
+    </body>
+</html>
