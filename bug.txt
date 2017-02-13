@@ -16,6 +16,28 @@
     }
   }
 }
+class Box
+{
+   public:
+
+      double getVolume(void)
+      {
+         return length * breadth * height;
+      }
+      void setLength( double len )
+      {
+          length = len;
+      }
+
+      void setBreadth( double bre )
+      {
+          breadth = bre;
+      }
+
+      void setHeight( double hei )
+      {
+          height = hei;
+      }
 // Main function for the program
 int main( )
 {
