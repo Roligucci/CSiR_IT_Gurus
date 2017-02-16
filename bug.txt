@@ -1,71 +1,74 @@
-
-#include<iostream>
-
+#include <iostream>
 using namespace std;
 
-class Shape
+class Box
 {
-protected:
-    float width, height;
+   public:
+   
+      double getVolume(void)
+      {
+         return length * breadth * height;
+      }
+      void setLength( double len )
+      {
+          length = len;
+      }
 
-public:
-    void set_data (float a, float b)
-    {
-        width = a;
-        height = b;
-    }
+      void setBreadth( double bre )
+      {
+          breadth = bre;
+      }
+
+      void setHeight( double hei )
+      {
+          height = hei;
+      }
+      // Overload + operator to add two Box objects.
+      Box operator+(const Box& b)
+      {
+         Box box;
+         box.length = this->length + b.length;
+         box.breadth = this->breadth + b.breadth;
+         box.height = this->height + b.height;
+         return box;
+      }
+   private:
+      double length;      // Length of a box
+      double breadth;     // Breadth of a box
+      double height;      // Height of a box
 };
-
-//inheriting Shape class
-class Rectangle: public Shape
+// Main function for the program
+int main( )
 {
-public:
-    float area ()
-    {
-        return (width * height);
-    }
-};
+   Box Box1;                // Declare Box1 of type Box
+   Box Box2;                // Declare Box2 of type Box
+   Box Box3;                // Declare Box3 of type Box
+   double volume = 0.0;     // Store the volume of a box here
 
-//inheriting Shape class
-class Triangle: public Shape
-{
-    public:
-        float area ()
-        {
-            return (width * height / 2);
-        }
-};
+   // box 1 specification
+   Box1.setLength(6.0);
+   Box1.setBreadth(7.0);
+   Box1.setHeight(5.0);
 
-int main ()
-{
-    Rectangle rect;
-    Triangle tri;
+   // box 2 specification
+   Box2.setLength(12.0);
+   Box2.setBreadth(13.0);
+   Box2.setHeight(10.0);
 
-    rect.set_data (5,3);
-    tri.set_data (2,5);
+   // volume of box 1
+   volume = Box1.getVolume();
+   cout << "Volume of Box1 : " << volume <<endl;
 
-    cout <<"Area of Rectangle : " <<rect.area() << endl;
-    cout <<"Area of Triangle : "<< tri.area() << endl;
+   // volume of box 2
+   volume = Box2.getVolume();
+   cout << "Volume of Box2 : " << volume <<endl;
 
-    return 0;
+   // Add two object as follows:
+   Box3 = Box1 + Box2;
+
+   // volume of box 3
+   volume = Box3.getVolume();
+   cout << "Volume of Box3 : " << volume <<endl;
+
+   return 0;
 }
-//
-int x = 1;
-int number;
-int total = 0;
-  
-while
- 
- (x <= 5) {
-  cin >> number;
-  
-  
- 
- = total + number;
-  x++;
-}
-cout << "Sum: " << 
-  
- 
- << endl;
-
